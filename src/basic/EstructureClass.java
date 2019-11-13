@@ -6,6 +6,10 @@ public class EstructureClass {
 class Animal {
     String name; //variable
 
+    /**
+     *
+     * @return
+     */
     String getName() {
         return name;
     }

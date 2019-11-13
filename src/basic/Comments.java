@@ -24,8 +24,8 @@ public class Comments {
     // /* dog */ single
 
     /*
-    * /* ferret */ // dont compile
-    */
+    * /* ferret */ // dont compile si se añade otro */s
+
 
 
 }
