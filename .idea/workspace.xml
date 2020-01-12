@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582a5432-eec1-4493-b44d-21ea20e55996" name="Default Changelist" comment="" />
+    <list default="true" id="582a5432-eec1-4493-b44d-21ea20e55996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/inicializar/StaticInicializacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Lambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/PredicateSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/certificacionProgrammer1/basic/PackageDeclarationsAndImports.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/certificacionProgrammer1/basic/PackageDeclarationsAndImports.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/PackageDeclarationsAndImports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/PackageDeclarationsAndImports.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -39,13 +48,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prueba">
+  <component name="RunManager" selected="Application.Lambdas">
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Lambdas" />
+      <module name="certificacionProgrammer1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.MainMethods" />
       <module name="certificacionProgrammer1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.PredicateSearch" />
+      <module name="certificacionProgrammer1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="Application.PredicateSearch" />
         <item itemvalue="Application.Prueba" />
         <item itemvalue="Application.MainMethods" />
       </list>
@@ -104,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
